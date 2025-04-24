@@ -24,7 +24,7 @@ public class Unique_Paths_II {
      * TC: O(M x N)
      * SC: O(M x N)
      *
-     * Time Limit Exceeded (42 / 42 testcases passed)
+     * Accepted (42 / 42 testcases passed)
      */
     public int uniquePathsWithObstaclesTabulation(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -66,7 +66,7 @@ public class Unique_Paths_II {
      * TC: O(M x N)
      * SC: O((M x N) + (M + N))
      *
-     * Time Limit Exceeded (42 / 42 testcases passed)
+     * Accepted (42 / 42 testcases passed)
      */
     public int uniquePathsWithObstaclesMemoization(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
